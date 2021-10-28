@@ -6,9 +6,9 @@ import java.util.List;
 import java.util.Map;
 
 public class node {
-    private String name;
+    private final String name;
 
-    private List<node> shortestPath = new LinkedList<>();
+    private final List<node> shortestPath = new LinkedList<>();
 
     private Integer distance = Integer.MAX_VALUE;
 

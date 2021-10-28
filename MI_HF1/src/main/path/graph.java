@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Set;
 
 public class graph {
-    private Set<node> nodes = new HashSet<>();
+    private final Set<node> nodes = new HashSet<>();
 
     public void addNode(node nodeA) {
         nodes.add(nodeA);
