@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">hfreremastered</string>
+    <string name="name" />
+    <string name="delete"/>
+    <string name="save">Save</string>
+    <string name="add_image">Add image</string>
+
+</resources>

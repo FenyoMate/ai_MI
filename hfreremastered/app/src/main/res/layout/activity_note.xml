@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B1D4E0"
+    tools:context=".NoteActivity"
+    >
+
+    <TextView
+        android:id="@+id/text_note"
+        android:layout_width="match_parent"
+        android:layout_height="282dp"
+        android:layout_margin="8dp"
+
+        android:text="Jegyzet helye" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#145DA0"
+        android:text="@string/save" />
+
+    <Button
+        android:id="@+id/button_add_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#145DA0"
+        android:text="@string/add_image"
+        android:layout_margin="8dp"
+
+        />
+</LinearLayout>
